@@ -6,7 +6,3 @@ dist/
 wheels/
 *.egg-info
 .venv/
-
-# Secrets
-.env
-.env.*
