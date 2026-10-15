@@ -1,0 +1,21 @@
+[project]
+name = "day04"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "kimdw6224", email = "kimdw0089@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.28.1",
+]
+
+[project.scripts]
+day04 = "day04:main"
+oss-tool = "oss_tool.cli:main"
+test01 = "oss_tool.cli:test01"
+
+[build-system]
+requires = ["uv_build>=0.12.12,<0.13.0"]
+build-backend = "uv_build"

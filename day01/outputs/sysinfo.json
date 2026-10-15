@@ -1,0 +1,48 @@
+{
+  "generated_at": "2026-09-11T02:35:56+00:00",
+  "os": {
+    "system": "Windows",
+    "release": "11",
+    "version": "10.0.26200",
+    "machine": "AMD64"
+  },
+  "cpu": {
+    "name": "AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+    "logical_cores": 16
+  },
+  "memory": {
+    "total_gb": 63.6
+  },
+  "disk": {
+    "path": "C:\\",
+    "total_gb": 930.5,
+    "free_gb": 266.3
+  },
+  "gpu": {
+    "available": true,
+    "reason": "",
+    "devices": [
+      {
+        "name": "NVIDIA GeForce RTX 5080",
+        "memory_total": "16303 MiB",
+        "driver_version": "610.88"
+      }
+    ]
+  },
+  "python": {
+    "version": "3.14.3",
+    "implementation": "CPython",
+    "in_project_venv": true,
+    "venv_location": ".venv"
+  },
+  "env": {
+    "OLLAMA_HOST": {
+      "value": "http://localhost:11434",
+      "source": ".env 또는 환경변수"
+    },
+    "OLLAMA_MODEL": {
+      "value": "qwen3:8b",
+      "source": ".env 또는 환경변수"
+    }
+  }
+}

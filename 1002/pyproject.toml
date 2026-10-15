@@ -1,0 +1,20 @@
+[project]
+name = "d1002"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "kimdw6224", email = "kimdw0089@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+main = "d1002:main"
+hello = "hello:main"
+test1 = "hello.test:test1"
+test2 = "hello.test:test2"
+
+[build-system]
+requires = ["uv_build>=0.12.12,<0.13.0"]
+build-backend = "uv_build"
