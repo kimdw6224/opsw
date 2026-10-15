@@ -16,6 +16,9 @@ d1015 = "d1015:main"
 ex01 = "ex01:main"
 ex02 = "ex02:main"
 ex03 = "ex03:main"
+ex04 = "ex04:main"
+ex05 = "ex05:main"
+ex06 = "ex06:main"
 
 [build-system]
 requires = ["uv_build>=0.12.12,<0.13.0"]
